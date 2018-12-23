@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://poradafamily.com/',
     'production' => false,
     'siteName' => 'JNYPHL',
     'siteDescription' => 'Jenny and Phil',

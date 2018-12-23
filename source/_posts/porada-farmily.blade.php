@@ -11,7 +11,7 @@ categories: [featured]
 
 @section ('content')
 
-    <h2>We got a house</h2>
+    <h2>We got a house!</h2>
 
     <div class="flex -mx-4">
         <div class=" mx-4">
