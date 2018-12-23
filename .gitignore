@@ -3,4 +3,5 @@
 /build_production/
 /node_modules/
 /vendor/
+pictures/
 .DS_Store
