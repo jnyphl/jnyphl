@@ -8,51 +8,64 @@
 @endpush
 
 @section('body')
-    @foreach ($posts->where('featured', true) as $featuredPost)
-        <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
+    @foreach ($posts->take(5) as $post)
+        @if ($loop->first)
+            <div class="w-full mb-6 flex -mx-4">
+                @if ($post->cover_image)
+                    <div class="w-2/3 mx-4 mt-4">
+                        <img src="{{ $post->cover_image }}" alt="{{ $post->title }} cover image" class="mb-6">
+                    </div>
+                @endif
+
+                <div class="w-1/3 flex-grow mx-4">
+                    <p class="text-grey-darker font-medium my-2">
+                        {{ $post->getDate()->format('F j, Y') }}
+                    </p>
+
+                    <h2 class="text-3xl mt-0">
+                        <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="font-extrabold">
+                            {{ $post->title }}
+                        </a>
+                    </h2>
+
+                    <p class="mt-0 mb-4">{!! $post->excerpt() !!}</p>
+
+                    <a href="{{ $post->getUrl() }}" title="Read - {{ $post->title }}"class="inline-block mt-2 text-xs uppercase tracking-wide text-grey-darker leading-none border rounded py-2 px-2 hover:bg-grey-light hover:text-black">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        @else
+        <div class="w-full mb-6 flex -mx-4">
+            <div class="w-2/3 flex-grow mx-4">
+                <p class="text-grey-darker text-sm my-2">
+                    {{ $post->getDate()->format('F j, Y') }}
+                </p>
+
+                <h2 class="text-3xl mt-0">
+                    <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="font-extrabold hover:underline">
+                        {{ $post->title }}
+                    </a>
+                </h2>
+
+                <p class="mt-0 mb-4">{!! $post->excerpt() !!}</p>
+
+                <a href="{{ $post->getUrl() }}" title="Read - {{ $post->title }}"class="inline-block mt-2 text-xs uppercase tracking-wide text-grey-darker leading-none border rounded py-2 px-2 hover:bg-grey-light hover:text-black">
+                    Read more
+                </a>
+            </div>
+
+            @if ($post->cover_image)
+                <div class="w-1/3 mx-4 mt-4">
+                    <img src="{{ $post->cover_image }}" alt="{{ $post->title }} cover image" class="mb-6">
+                </div>
             @endif
 
-            <p class="text-grey-darker font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
-
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-black font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
-
-            <p class="mt-0 mb-4">{!! $featuredPost->excerpt() !!}</p>
-
-            <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}"class="uppercase tracking-wide mb-4">
-                Read
-            </a>
         </div>
+    @endif
 
         @if (! $loop->last)
             <hr class="border-b my-6">
-        @endif
-    @endforeach
-
-    @include('_components.newsletter-signup')
-
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
-        <div class="flex flex-col md:flex-row md:-mx-6">
-            @foreach ($row as $post)
-                <div class="w-full md:w-1/2 md:mx-6">
-                    @include('_components.post-preview-inline')
-                </div>
-
-                @if (! $loop->last)
-                    <hr class="block md:hidden w-full border-b mt-2 mb-6">
-                @endif
-            @endforeach
-        </div>
-
-        @if (! $loop->last)
-            <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
 @stop

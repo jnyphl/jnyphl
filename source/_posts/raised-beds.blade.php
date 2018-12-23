@@ -1,10 +1,16 @@
 ---
 extends: _layouts.post
 section: content
-title: My First Blog Post
-date: 2017-03-23
+title: Raised beds
+date: 2018-05-19
 description: This is your first blog post.
 cover_image: /assets/img/post-cover-image-2.png
+featured: true
+categories: [featured]
 ---
 
-This is the start of your first blog post.
+@section ('content')
+
+    <p>la da da dee dee</p>
+
+@endsection
