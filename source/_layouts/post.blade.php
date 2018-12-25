@@ -18,15 +18,11 @@
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
-            <a
-                href="{{ '/blog/categories/' . $category }}"
-                title="View posts in {{ $category }}"
-                class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
-            >{{ $category }}</a>
+            <a href="{{ '/blog/categories/' . $category }}" title="View posts in {{ $category }}" class="button-light">{{ $category }}</a>
         @endforeach
     @endif
 
-    <div class="border-b border-grey-light mb-10 pb-4" v-pre>
+    <div class="border-b border-grey-light mb-10 pt-6 pb-4 content" v-pre>
         @yield('content')
     </div>
 

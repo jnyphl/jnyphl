@@ -1,1 +1,16 @@
 // Your custom blog styles here
+.content {
+    a {
+        @apply .underline;
+
+        &:hover {
+            @apply .no-underline;
+        }
+    }
+}
+
+.button {
+    &-light {
+        @apply .inline-block .bg-grey-light .leading-loose .tracking-wide .text-grey-darkest .uppercase .text-xs .font-semibold .rounded .mr-4 .px-3 .pt-px;
+    }
+}

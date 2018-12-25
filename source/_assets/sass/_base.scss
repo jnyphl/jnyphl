@@ -3,43 +3,28 @@ body {
 }
 
 a {
-    @apply .font-semibold;
-    @apply .no-underline;
-    @apply .text-teal-darker;
+    @apply .font-semibold .no-underline .text-forest;
 
     &:hover {
-        @apply .text-teal-darkest;
+        @apply .text-forest-light;
     }
 }
 
 blockquote {
-    @apply .border-teal-light;
-    @apply .border-l-4;
-    @apply .font-normal;
-    @apply .italic;
-    @apply .my-8;
-    @apply .pl-6;
-    @apply .text-grey-darker;
-    @apply .text-lg;
+    @apply .border-teal-light .border-l-4 .font-normal .italic .my-8 .pl-6 .text-grey-darker .text-lg;
 }
 
 code {
-    @apply .bg-grey-light;
-    @apply .px-2;
-    @apply .py-px;
-    @apply .rounded;
-    @apply .text-sm;
+    @apply .bg-grey-light .px-2 .py-px .rounded .text-sm;
 }
 
 code.hljs {
-    @apply .bg-transparent;
-    @apply .p-0;
+    @apply .bg-transparent .p-0;
 
     .hljs-comment,
     .hljs-keyword,
     .hljs-meta {
-        @apply .font-normal;
-        @apply .roman;
+        @apply .font-normal .roman;
     }
 }
 
@@ -49,9 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    @apply .leading-tight;
-    @apply .mb-4;
-    @apply .mt-8;
+    @apply .leading-tight .mb-4 .mt-8 .text-forest .font-bold;
 
     &:first-child {
         @apply .mt-0;
@@ -59,39 +42,31 @@ h6 {
 }
 
 h1 {
-    @apply .font-extrabold;
-    @apply .text-5xl;
+    @apply .font-extrabold .text-5xl;
 }
 
 h2 {
-    @apply .font-bold;
     @apply .text-4xl;
 }
 
 h3 {
-    @apply .font-bold;
     @apply .text-3xl;
 }
 
 h4 {
-    @apply .font-normal;
     @apply .text-2xl;
 }
 
 h5 {
-    @apply .font-normal;
     @apply .text-xl;
 }
 
 h6 {
-    @apply .font-light;
     @apply .text-lg;
 }
 
 hr {
-    @apply .border-b;
-    @apply .my-12;
-    @apply .rounded-full;
+    @apply .border-b .my-12 .rounded-full;
 }
 
 li {
@@ -115,18 +90,9 @@ p {
 }
 
 pre {
-    @apply .bg-grey-lighter;
-    @apply .leading-loose;
-    @apply .my-6;
-    @apply .overflow-x-auto;
-    @apply .p-4;
-    @apply .rounded;
-    @apply .shadow;
-    @apply .text-base;
+    @apply .bg-grey-lighter .leading-loose .my-6 .overflow-x-auto .p-4 .rounded .shadow .text-base;
 
     code {
-        @apply .bg-transparent;
-        @apply .block;
-        @apply .p-0;
+        @apply .bg-transparent .block .p-0;
     }
 }

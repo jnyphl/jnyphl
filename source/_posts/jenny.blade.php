@@ -4,7 +4,6 @@ section: content
 title: New blog
 date: 2018-12-29
 description: This is your first blog post.
-cover_image: /assets/img/post-cover-image-2.png
 featured: true
 categories: [featured]
 ---
@@ -13,6 +12,6 @@ categories: [featured]
 
     <h2>This is a post without markdown</h2>
 
-    <p>la da da dee dee</p>
+    <p>la da da <a href="">dee</a> dee</p>
 
 @endsection

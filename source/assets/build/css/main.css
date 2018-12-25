@@ -645,11 +645,11 @@ body {
 a {
   font-weight: 600;
   text-decoration: none;
-  color: #20504f;
+  color: #163d2c;
 }
 
 a:hover {
-  color: #0d3331;
+  color: #426656;
 }
 
 blockquote {
@@ -695,6 +695,8 @@ h6 {
   line-height: 1.25;
   margin-bottom: 1rem;
   margin-top: 2rem;
+  color: #163d2c;
+  font-weight: 700;
 }
 
 h1:first-child,
@@ -712,27 +714,22 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
   font-size: 2.125rem;
 }
 
 h3 {
-  font-weight: 700;
   font-size: 1.75rem;
 }
 
 h4 {
-  font-weight: 400;
   font-size: 1.5rem;
 }
 
 h5 {
-  font-weight: 400;
   font-size: 1.25rem;
 }
 
 h6 {
-  font-weight: 300;
   font-size: 1.125rem;
 }
 
@@ -890,6 +887,30 @@ pre code {
   #mc-embedded-subscribe {
     width: 25%;
   }
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+.content a:hover {
+  text-decoration: none;
+}
+
+.button-light {
+  display: inline-block;
+  background-color: #d9d7d4;
+  line-height: 1.75;
+  letter-spacing: .05em;
+  color: #333332;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 600;
+  border-radius: .25rem;
+  margin-right: 1rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: 1px;
 }
 
 .list-reset {
