@@ -4,46 +4,46 @@ section: content
 title: 'Porada Farmily: We bought a house!'
 date: 2018-01-29
 description: This is your first blog post.
-cover_image: /assets/images/2018-01-29-we-bought-a-house/house-front-snow.jpg
+cover_image: /assets/images/2018-01-29-we-bought-a-house/jnyphl-in-front-of-house.jpg
 featured: true
 categories: [featured]
 ---
 
 @section ('content')
-
-    <h2>We got a house!</h2>
-
-    <div class="flex -mx-4">
-        <div class=" mx-4">
-            <img src="/assets/images/2018-01-29-we-bought-a-house/keys.jpg">
-            <div>Keys!</div>
+    <div class="flex flex-wrap -mx-4 mt-6">
+        <div class="px-4 mb-8 w-full">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/snowy-house-front.jpg">
+            <p class="my-2">It was snowing when we moved in</p>
         </div>
-        <div class="mx-4">
-            <img src="/assets/images/2018-01-29-we-bought-a-house/chicken-coop.jpg">
-            <div>Gwen left an old photo of the chicken cook on a shelf in the kitchen</div>
-        </div>
-    </div>
-
-    <h2>Meet our neigh-bors</h2>
-    <div class="flex -mx-4">
-        <div class="mx-4">
+        <div class="px-4 mb-8 w-1/2">
             <img src="/assets/images/2018-01-29-we-bought-a-house/neighbor-horses.jpg">
+            <p class="my-2">Our neighbors have horses!</p>
         </div>
-        <div class="mx-4">
+        <div class="px-4 mb-8 w-1/2">
             <img src="/assets/images/2018-01-29-we-bought-a-house/neighbor-horses-2.jpg">
         </div>
-    </div>
-
-    <h2>Photots from the lising</h2>
-    <div class="flex -mx-4">
-        <div class="mx-4">
-            <img src="/assets/images/2018-01-29-we-bought-a-house/house-front-lising.jpg">
-            <div>Front of the house</div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/summer-house-front.jpg">
+            <p class="my-2">Summertime views</p>
         </div>
-        <div class="mx-4">
-            <img src="/assets/images/2018-01-29-we-bought-a-house/house-back.jpg">
-            <div>Back of the house</div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/summer-house-back.jpg">
+        </div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/side-yard.jpg">
+            <p class="my-2">Apple trees and barns</p>
+        </div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/barn-1.jpg">
+            <p class="my-2">Where the barn cats live</p>
+        </div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/garage-1.jpg">
+            <p class="my-2">The previous owners had a thing for cars</p>
+        </div>
+        <div class="px-4 mb-8 w-1/2">
+            <img src="/assets/images/2018-01-29-we-bought-a-house/coop.jpg">
+            <p class="my-2">Remains of an old chicken coop</p>
         </div>
     </div>
-
 @endsection

@@ -1,16 +1,11 @@
-<nav class="hidden lg:flex items-center justify-end text-lg font-normal">
+<nav class="hidden lg:flex items-center">
     <a title="{{ $page->siteName }} Blog" href="/blog"
-        class="ml-6 text-black hover:text-blue-dark {{ $page->isActive('/blog') ? 'active text-blue-dark' : '' }}">
+        class="text-forest-dark hover:underline hover:text-forest-light {{ $page->isActive('/blog') ? 'active text-forest-light underline' : '' }}">
         Blog
     </a>
 
     <a title="{{ $page->siteName }} About" href="/about"
-        class="ml-6 text-black hover:text-blue-dark {{ $page->isActive('/about') ? 'active text-blue-dark' : '' }}">
+        class="ml-6 text-forest-dark hover:underline hover:text-forest-light {{ $page->isActive('/about') ? 'active text-forest-light underline' : '' }}">
         About
-    </a>
-
-    <a title="{{ $page->siteName }} Contact" href="/contact"
-        class="ml-6 text-black hover:text-blue-dark {{ $page->isActive('/contact') ? 'active text-blue-dark' : '' }}">
-        Contact
     </a>
 </nav>

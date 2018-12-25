@@ -26,32 +26,33 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-grey-lightest text-grey-darkest leading-normal font-sans">
+    <body class="flex flex-col justify-between min-h-screen bg-grey-lightest text-forest-darkest leading-normal font-sans">
         <div id="vue-app">
             <header class="flex items-center py-4 max-w-xl mx-auto" role="banner">
-                <div class="container flex items-center max-w-4xl mx-auto px-4 lg:px-8">
-                    <div class="flex items-center">
+                <div class="flex items-center w-full">
+                    <div class="flex items-center px-4">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                            <h1 class="border-4 border-black p-2 my-0 text-lg font-mono text-black tracking-wide leading-none">
+                            <h1 class="border-2 border-forest-dark hover:border-forest-light p-2 my-0 text-sm font-mono text-forest-dark hover:text-forest-light tracking-wide leading-none">
                                 <span class="block">JNY</span>
                                 <span class="block">PHL</span>
                             </h1>
                         </a>
                     </div>
 
-                    <div class="flex flex-1 justify-end items-center">
+                    <div class="flex flex-1 justify-end items-center px-4">
 
                         @include('_nav.menu')
 
-                        @include('_nav.menu-toggle')
                         <search></search>
+
+                        @include('_nav.menu-toggle')
                     </div>
                 </div>
             </header>
 
             @include('_nav.menu-responsive')
 
-            <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
+            <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-4">
                 @yield('body')
             </main>
         </div>
@@ -62,6 +63,9 @@
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
+                <li class="md:mr-2">
+                    @include('_components.commit')
+                </li>
                 <li class="md:mr-2">
                     &copy; JNYPHL {{ date('Y') }}.
                 </li>

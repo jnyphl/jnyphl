@@ -46,14 +46,14 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   'transparent': 'transparent',
 
-  'black': '#181a19',
-  'grey-darkest': '#323333',
-  'grey-darker': '#575959',
-  'grey-dark': '#949999',
-  'grey': '#babfbf',
-  'grey-light': '#d9d9d9',
-  'grey-lighter': '#e6e6e6',
-  'grey-lightest': '#f2f2f2',
+  'black': '#090f0d',
+  'grey-darkest': '#333332',
+  'grey-darker': '#575957',
+  'grey-dark': '#999896',
+  'grey': '#bfbebb',
+  'grey-light': '#d9d7d4',
+  'grey-lighter': '#e5e4e1',
+  'grey-lightest': '#f2f0ed',
   'white': '#ffffff',
 
   'red-darkest': '#3b0d0c',
@@ -127,6 +127,22 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+  'forest-darkest': '#13211b',
+  'forest-darker': '#0a2c1d',
+  'forest-dark': '#0f3424',
+  'forest': '#163d2c',
+  'forest-light': '#426656',
+  'forest-lighter': '#84a999',
+  'forest-lightest': '#afd0c2',
+
+  'brown-darkest': '#2b2019',
+  'brown-darker': '#453327',
+  'brown-dark': '#5e4635',
+  'brown': '#775943',
+  'brown-light': '#916c51',
+  'brown-lighter': '#ab7f60',
+  'brown-lightest': '#c4926e',
 }
 
 module.exports = {
