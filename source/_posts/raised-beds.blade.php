@@ -6,6 +6,7 @@ date: 2018-05-19
 description: This is your first blog post.
 cover_image: /assets/img/post-cover-image-2.png
 featured: true
+author: "Phil"
 categories: [featured]
 ---
 
