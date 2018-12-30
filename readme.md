@@ -1,12 +1,13 @@
 # Porada Farmily blog
+Visit our site at https://poradafamily.com
 
-## Getting started
-* Clone repo
-* `make watch` in the jnyphl folder to start a local server
+### Getting started
+* Run `make watch` in the `jnyphl` folder to start a local server and automatically compile scss or js changes
 * Create a new `.md` or `.blade.php` in `source/_posts`
 * `make build` to publish a new post/create a static page
+* View locally at http://localhost:3000/
 
-## Technologies:
+### Technologies:
 
 - [Jigsaw static site](https://jigsaw.tighten.co/) using Laravel, Blade
 - [Tailwind CSS](https://tailwindcss.com/), a utility CSS framework that allows you to customize your design without touching a line of CSS
