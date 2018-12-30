@@ -6,6 +6,9 @@ return [
     'siteName' => 'JNYPHL',
     'siteDescription' => 'Jenny and Phil',
     'siteAuthor' => 'Jenny and Phil',
+    'excerpt' => function ($page, $characters = 200) {
+        return substr($page->getContent(), 0, $characters);
+    },
 
     // collections
     'collections' => [
@@ -13,6 +16,9 @@ return [
             'author' => 'Jenny', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
+            'excerpt' => function ($page, $characters = 200) {
+                return substr(strip_tags($page->getContent()), 0, $characters);
+            },
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
@@ -25,6 +31,9 @@ return [
     ],
 
     // helpers
+    'getContent' => function ($page) {
+
+    },
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
