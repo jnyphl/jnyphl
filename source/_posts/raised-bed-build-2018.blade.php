@@ -13,11 +13,11 @@ categories: [garden,building,outside]
     <div class="flex flex-wrap -mx-4 mt-6">
         <div class="px-4 mb-8 w-1/2">
             <img src="/assets/images/raised-bed-build-2018/01-built-some-boxes.png">
-            <p class="my-2">Thing 1</p>
+            <p class="my-2">We built some boxes!</p>
         </div>
         <div class="px-4 mb-8 w-1/2">
             <img src="/assets/images/raised-bed-build-2018/02-rototilling.png">
-            <p class="my-2">Thing 2</p>
+            <p class="my-2">We began roto-tilling a plot larger than our previous house.</p>
         </div>
     </div>
 @endsection
