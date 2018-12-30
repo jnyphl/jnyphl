@@ -1,5 +1,11 @@
 # Porada Farmily blog
 
+### Getting started
+* Clone repo
+* `make watch` in the jnyphl folder to start a local server
+* Create a new `.md` or `.blade.php` in `source/_posts`
+* `make build` to publish a new post from the `source/_posts` folder
+
 Technologies:
 
 - [Jigsaw static site](https://jigsaw.tighten.co/) using Laravel, Blade

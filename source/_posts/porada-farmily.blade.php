@@ -1,15 +1,19 @@
 ---
 extends: _layouts.post
 section: content
-title: 'Porada Farmily: We bought a house!'
+title: 'Porada farmily blog!'
 date: 2018-01-29
 description: This is your first blog post.
 cover_image: /assets/images/2018-01-29-we-bought-a-house/jnyphl-in-front-of-house.jpg
+cover_image_alt: Cover image alt
 featured: true
 categories: [featured]
 ---
-
 @section ('content')
+
+    {{ dump($page->excerpt()) }}
+
+<p>does this show up in the excerpt </p>
     <div class="flex flex-wrap -mx-4 mt-6">
         <div class="px-4 mb-8 w-full">
             <img src="/assets/images/2018-01-29-we-bought-a-house/snowy-house-front.jpg">
