@@ -8,3 +8,11 @@ build: ## Write html pages
 
 watch: ## Compile
 		@npm run watch
+
+build-docker: ## Use a container to do all the build stuff so we don't shit up our systems with php or nodejs
+		@docker build . -f Dockerfile -t jigsaw
+		@docker run -t -v $$(pwd):/app jigsaw composer install
+		@docker run -t -v $$(pwd):/app jigsaw npm install --no-progress
+		@docker run -t -v $$(pwd):/app jigsaw ./vendor/bin/jigsaw build
+		@docker run -t -v $$(pwd):/app jigsaw npm run dev
+		@python -m SimpleHTTPServer 8000
