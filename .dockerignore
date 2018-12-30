@@ -1,0 +1,8 @@
+.git/
+.gitignore
+.dockerignore
+composer.lock
+package-lock.json
+Makefile
+Dockerfile
+README.md
