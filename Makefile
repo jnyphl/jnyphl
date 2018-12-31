@@ -15,4 +15,6 @@ build-docker: ## Use a container to do all the build stuff so we don't shit up o
 		@docker run -t -v $$(pwd):/app jigsaw npm install --no-progress
 		@docker run -t -v $$(pwd):/app jigsaw ./vendor/bin/jigsaw build
 		@docker run -t -v $$(pwd):/app jigsaw npm run dev
-		@cd build_local && python -m SimpleHTTPServer 8000
+
+watch-docker: ## Compile, but in a container
+	@docker run -t -v $$(pwd):/app -p 3000:3000 jigsaw npm run watch
