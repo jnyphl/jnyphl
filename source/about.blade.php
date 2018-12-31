@@ -10,9 +10,17 @@
 @section('body')
     <h1>About</h1>
 
-    <img src="/assets/images/about/us.jpg" alt="About image" class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
+    <div class="flex w-full">
+        <div class="w-2/3">
+            <p>We'll have something here soon.</p>
+            <p><a href="https://philporada.com">https://philporada.com</a>
+            <br /><a href="https://jennyingles.com">https://jennyingles.com</a></p>
+        </div>
 
-    <p><a href="https://philporada.com">https://philporada.com</a></p>
-    <p><a href="https://jennyingles.com">https://jennyingles.com</a></p>
+        <div class="w-1/3">
+            <img src="/assets/images/about/us.jpg" alt="About image" class="flex rounded-full bg-contain">
+        </div>
+    </div>
+
 
 @endsection

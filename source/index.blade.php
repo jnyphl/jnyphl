@@ -10,14 +10,14 @@
 @section('body')
     @foreach ($posts->take(5) as $post)
         @if ($loop->first)
-            <div class="mb-6 flex -mx-2">
+            <div class="mb-6 md:flex -mx-4">
                 @if ($post->cover_image)
-                    <div class="w-2/3 px-2 mt-4">
-                        <img src="{{ $post->cover_image }}" alt="{{ $post->title }} cover image" class="mb-6">
+                    <div class="md:w-3/5 px-4 mt-4">
+                        <img src="{{ $post->cover_image }}" alt="{{ $post->title }} cover image">
                     </div>
                 @endif
 
-                <div class="w-1/3 flex-grow px-2">
+                <div class="md:w-2/5 flex-grow px-4 py-2">
                     <p class="text-grey-darker text-sm my-2">
                         {{ $post->getDate()->format('F j, Y') }}
                     </p>
