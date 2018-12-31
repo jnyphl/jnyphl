@@ -14,6 +14,7 @@ mix.webpackConfig({
             'source/**/*.md',
             'source/**/*.php',
             'source/**/*.scss',
+            'source/**/*.js',
         ]),
     ],
 });
@@ -21,7 +22,6 @@ mix.webpackConfig({
 mix.js('source/_assets/js/main.js', 'js')
     .sourceMaps()
     .sass('source/_assets/sass/main.scss', 'css/main.css')
-    .sourceMaps()
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.js') ],
@@ -31,4 +31,5 @@ mix.js('source/_assets/js/main.js', 'js')
         folders: ['source'],
         whitelistPatterns: [/language/, /hljs/],
     })
+    .sourceMaps()
     .version();

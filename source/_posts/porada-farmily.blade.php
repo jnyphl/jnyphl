@@ -12,8 +12,8 @@ override_excerpt: Young couple moves to the middle of nowhere to do cool stuff!
 ---
 @section ('content')
 
-<div class="flex flex-wrap -mx-4 mt-6">
-    <div class="px-4 mb-8 w-full">
+<div class="flex flex-wrap -mx-4 mt-6 gallery">
+    <div class="px-4 mb-8 w-full gallery">
         <img src="/assets/images/2018-01-29-we-bought-a-house/snowy-house-front.jpg">
         <p class="my-2">It was snowing when we moved in</p>
     </div>
