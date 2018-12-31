@@ -37,15 +37,7 @@
 
 
     <div class="border-b border-grey-light mb-4 pt-6 pb-4" v-pre>
-
         @yield('content')
-
-        @if ($page->categories)
-            Categories:
-            @foreach ($page->categories as $i => $category)
-                <a href="{{ '/blog/categories/' . $category }}" title="View posts in {{ $category }}" class="button-light">{{ $category }}</a>
-            @endforeach
-        @endif
     </div>
 
     <nav class="flex justify-between text-sm md:text-base">

@@ -3,7 +3,6 @@ window.fuse = require('fuse.js');
 window.Vue = require('vue');
 
 import Search from './components/Search.vue';
-import './components/baguettebox';
 import hljs from 'highlight.js/lib/highlight';
 
 // Syntax highlighting

@@ -55,7 +55,7 @@
 
             @include('_nav.menu-responsive')
 
-            <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-4">
+            <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-8 px-4">
                 @yield('body')
             </main>
         </div>

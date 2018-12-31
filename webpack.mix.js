@@ -27,9 +27,6 @@ mix.js('source/_assets/js/main.js', 'js')
         postCss: [ tailwindcss('./tailwind.js') ],
     })
     .purgeCss({
-        globs: [
-            path.join(__dirname, "./node_modules/baguettebox.js/dist/baguetteBox.js"),
-        ],
         extensions: ['html', 'md', 'js', 'php', 'vue'],
         folders: ['source'],
         whitelistPatterns: [/language/, /hljs/],
