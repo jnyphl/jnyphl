@@ -1,4 +1,3 @@
-
 @extends('_layouts.master')
 
 @push('meta')
