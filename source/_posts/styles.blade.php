@@ -6,6 +6,8 @@ date: 1988-07-14
 description: Displaying colors and styles used throughout the site.
 //cover_image: /assets/img/post-cover-image-2.png
 featured: false
+author: Jenny
+override_excerpt: Style guide for our blog.
 categories: [blog]
 ---
 

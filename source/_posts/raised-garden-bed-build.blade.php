@@ -7,7 +7,7 @@ description: We built raised garden beds in a plot bigger than our old house!
 cover_image: /assets/images/2018-06-01-raised-bed-build/cover-mulch-begins.jpg
 featured: false
 author: Phil
-override_excerpt: Can one couple eat 468 heads of cauliflower to remain financially solvent?
+override_excerpt: Can one couple grow and eat 468 heads of cauliflower to remain financially solvent?
 categories: [garden,building,outside]
 ---
 @section ('content')
