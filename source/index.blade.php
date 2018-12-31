@@ -28,7 +28,11 @@
                         </a>
                     </h2>
 
-                    <p class="mt-0 mb-4">{!! $post->excerpt(200) !!}</p>
+                    @if(!empty($post->excerpt()))
+                        <p class="mt-0 mb-4">{!! $post->excerpt(200) !!}</p>
+                    @else
+                        <p class="mt-0 mb-4">{!! $post->override_excerpt !!}</p>
+                    @endif
 
                     <a href="{{ $post->getUrl() }}" title="Read - {{ $post->title }}"class="inline-block mt-2 text-xs uppercase tracking-wide text-grey-darker leading-none border rounded py-2 px-2 hover:bg-grey-light hover:text-black">
                         Read more
@@ -48,7 +52,12 @@
                     </a>
                 </h2>
 
-                <p class="mt-0 mb-4">{!! $post->excerpt() !!}</p>
+                @if(!empty($post->excerpt()))
+                    <p class="mt-0 mb-4">{!! $post->excerpt(200) !!}</p>
+                @else
+                    <p class="mt-0 mb-4">{!! $post->override_excerpt !!}</p>
+                @endif
+
 
                 <a href="{{ $post->getUrl() }}" title="Read - {{ $post->title }}"class="inline-block mt-2 text-xs uppercase tracking-wide text-grey-darker leading-none border rounded py-2 px-2 hover:bg-grey-light hover:text-black">
                     Read more

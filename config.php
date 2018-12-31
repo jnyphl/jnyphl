@@ -31,13 +31,10 @@ return [
     ],
 
     // helpers
-    'getContent' => function ($page) {
-
-    },
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
-    'excerpt' => function ($page, $length = 255) {
+    'excerpt' => function ($page, $length = 200) {
         $cleaned = strip_tags(
             preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $page->getContent()),
             '<code>'

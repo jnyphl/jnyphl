@@ -7,10 +7,11 @@ description: We built raised garden beds in a plot bigger than our old house!
 cover_image: /assets/images/2018-06-01-raised-bed-build/cover-mulch-begins.jpg
 featured: false
 author: Phil
+override_excerpt: Your text here.
 categories: [garden,building,outside]
 ---
 @section ('content')
-    <p><p>By {{ $page->author }} • {{ date('F j, Y', $page->date) }}</p>
+    <p>By {{ $page->author }} • {{ date('F j, Y', $page->date) }}</p>
     <h2>Materials</h2>
     <p>Building supplies</p>
     <ul>

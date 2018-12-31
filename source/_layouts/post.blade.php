@@ -17,6 +17,7 @@
     @endif
 
     <div class="border-b border-grey-light mb-4 pt-6 pb-4" v-pre>
+
         @yield('content')
 
     @if ($page->categories)
