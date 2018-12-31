@@ -11,6 +11,6 @@
 
 .button {
     &-light {
-        @apply .inline-block .bg-grey-light .leading-loose .tracking-wide .text-grey-darkest .uppercase .text-xs .font-semibold .rounded .mr-4 .px-3 .pt-px;
+        @apply .inline-block .bg-grey-light .leading-loose .tracking-wide .text-grey-darkest .uppercase .text-xs .font-semibold .rounded .px-3 .pt-px;
     }
 }

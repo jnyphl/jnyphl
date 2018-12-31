@@ -11,7 +11,6 @@ override_excerpt: Can one couple eat 468 heads of cauliflower to remain financia
 categories: [garden,building,outside]
 ---
 @section ('content')
-    <p>By {{ $page->author }} • {{ date('F j, Y', $page->date) }}</p>
     <h2>Materials</h2>
     <p>Building supplies</p>
     <ul>

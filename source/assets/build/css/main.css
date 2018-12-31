@@ -907,7 +907,6 @@ pre code {
   font-size: .8rem;
   font-weight: 600;
   border-radius: .25rem;
-  margin-right: 1rem;
   padding-left: .75rem;
   padding-right: .75rem;
   padding-top: 1px;
@@ -7427,6 +7426,10 @@ pre code {
   width: 16rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -7541,6 +7544,10 @@ pre code {
 
 .focus\:w-64:focus {
   width: 16rem;
+}
+
+.focus\:w-80:focus {
+  width: 20rem;
 }
 
 .focus\:w-auto:focus {
@@ -14130,6 +14137,10 @@ pre code {
     width: 16rem;
   }
 
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -14244,6 +14255,10 @@ pre code {
 
   .sm\:focus\:w-64:focus {
     width: 16rem;
+  }
+
+  .sm\:focus\:w-80:focus {
+    width: 20rem;
   }
 
   .sm\:focus\:w-auto:focus {
@@ -20826,6 +20841,10 @@ pre code {
     width: 16rem;
   }
 
+  .md\:w-80 {
+    width: 20rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -20940,6 +20959,10 @@ pre code {
 
   .md\:focus\:w-64:focus {
     width: 16rem;
+  }
+
+  .md\:focus\:w-80:focus {
+    width: 20rem;
   }
 
   .md\:focus\:w-auto:focus {
@@ -27522,6 +27545,10 @@ pre code {
     width: 16rem;
   }
 
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -27636,6 +27663,10 @@ pre code {
 
   .lg\:focus\:w-64:focus {
     width: 16rem;
+  }
+
+  .lg\:focus\:w-80:focus {
+    width: 20rem;
   }
 
   .lg\:focus\:w-auto:focus {
@@ -34218,6 +34249,10 @@ pre code {
     width: 16rem;
   }
 
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -34332,6 +34367,10 @@ pre code {
 
   .xl\:focus\:w-64:focus {
     width: 16rem;
+  }
+
+  .xl\:focus\:w-80:focus {
+    width: 20rem;
   }
 
   .xl\:focus\:w-auto:focus {
