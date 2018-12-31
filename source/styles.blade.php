@@ -1,16 +1,14 @@
----
-extends: _layouts.post
-section: content
-title: Site styles
-date: 1988-07-14
-description: Displaying colors and styles used throughout the site.
-//cover_image: /assets/img/post-cover-image-2.png
-featured: false
-categories: [blog]
----
 
-@section ('content')
+@extends('_layouts.master')
 
+@push('meta')
+    <meta property="og:title" content="About {{ $page->siteName }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="A little bit about {{ $page->siteName }}" />
+@endpush
+
+@section('body')
     <h2 class="border-b">Headings</h2>
     <h1 class="my-0">H1: Heading</h1>
     <h2 class="my-0">H2: Heading</h2>

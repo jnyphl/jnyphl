@@ -9,6 +9,10 @@
 
 @section('body')
 
+    @if ($page->cover_image)
+        <img src="{{ $page->cover_image }}" alt="{{ $page->cover_image_alt }} cover image" class="mb-2">
+    @endif
+
     @if ($page->categories)
         <div class="my-4">
         @foreach ($page->categories as $i => $category)
@@ -17,7 +21,7 @@
         </div>
     @endif
 
-    <h1 class="mt-0 mb-2">{{ $page->title }}</h1>
+    <h1 class="mt-4 mb-2">{{ $page->title }}</h1>
 
     <p class="mt-0 mb-6 text-2xl text-forest-light">{!! $page->override_excerpt !!}</p>
 
@@ -31,12 +35,7 @@
         </div>
     </div>
 
-    @if ($page->cover_image)
-        <img src="{{ $page->cover_image }}" alt="{{ $page->cover_image_alt }} cover image" class="mb-2">
-    @endif
-
-
-    <div class="border-b border-grey-light mb-4 pt-6 pb-4" v-pre>
+    <div class="border-b border-grey-light mb-4 text-lg" v-pre>
         @yield('content')
     </div>
 
