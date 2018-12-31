@@ -7,7 +7,7 @@ description: We built raised garden beds in a plot bigger than our old house!
 cover_image: /assets/images/2018-06-01-raised-bed-build/cover-mulch-begins.jpg
 featured: false
 author: Phil
-override_excerpt: Your text here.
+override_excerpt: Can one couple eat 468 heads of cauliflower to remain financially solvent?
 categories: [garden,building,outside]
 ---
 @section ('content')
@@ -53,7 +53,7 @@ categories: [garden,building,outside]
     </ol>
 
     <h2>Moving the Earth</h2>
-    <p>The spot we picked is larger than our previous house. This was crazy to actually mark out on the ground. We utilized aspects of <a href='https://richsoil.com/hugelkultur/'>hugelkultur</a> and <a href=''>lasagna gardening</a> while filling the bed</p>
+    <p>The spot we picked is larger than our previous house. This was crazy to actually mark out on the ground. We utilized aspects of <a href='https://richsoil.com/hugelkultur/'>hugelkultur</a> and <a href='https://healthysustainableliving.blogspot.com/2015/04/have-youtried-raised-lasagna-bed-garden.html'>lasagna gardening</a> while filling each bed.</p>
 
     <h2>Progress Pics!</h2>
     <div class="flex flex-wrap -mx-4 mt-6">

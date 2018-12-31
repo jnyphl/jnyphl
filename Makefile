@@ -9,6 +9,9 @@ build: ## Write html pages
 watch: ## Compile
 		@npm run watch
 
+get-pictures: ## Download the pictures for local development. This will only work for Jenny and I.
+		@scp -r philinode:~/websites/poradafamily.com/www/assets/images source/assets/
+
 build-docker: ## Use a container to do all the build stuff so we don't shit up our systems with php or nodejs
 		@docker build . -f Dockerfile -t jigsaw
 		@docker run -t -v $$(pwd):/app jigsaw composer install
