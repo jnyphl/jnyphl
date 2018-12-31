@@ -8,7 +8,7 @@ cover_image: /assets/images/2018-01-29-we-bought-a-house/jnyphl-in-front-of-hous
 cover_image_alt: Cover image alt
 featured: true
 categories: [featured]
-override_excerpt: We're here to share our story.
+override_excerpt: Young couple moves to the middle of nowhere to do cool stuff!
 ---
 @section ('content')
 
