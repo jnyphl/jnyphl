@@ -17,12 +17,10 @@ categories: [house,basement,inside,plumbing]
 
     <h2>Radon</h2>
     <p>Radon is a radioactive gas. It is colorless, odorless, tasteless, and chemically inert. For more information about radon, please view <a href='https://airthings.com/what-is-radon/'>this website</a> or <a href='https://sosradon.org/Radon%20Basics'>this website</a>. Our area of Michigan is documented and reported to have high levels of radon.
-    <img src='/assets/images/2018-03-01-basement-upgrades/radon-02.png'></img>
-    <br>
-    Before we closed on the house, the seller allowed me to set out some radon test kits in the basement. The tests reported the level at 11.2pCi/l (picocuries per litre of air) which is above the EPA states as safe. We hired a contractor to install a <a href='https://www.michigan.gov/deq/0,4561,7-135-3312_4120_4196-485693--,00.html'>radon mitigation system</a>. The total cost of was ~$800 and a few hours of my own time. Realistically, the cost is irrelevant due to the protection the system offers my family over the course of our lives. Looking back on the install job, I would have changed a few things and will write another blog post about that.
+    <img src='/assets/images/2018-03-01-basement-upgrades/radon-02.png' class="block">
+    Before we closed on the house, the seller allowed me to set out some radon test kits in the basement. The tests reported the level at 11.2pCi/l (picocuries per litre of air) which is above the EPA states as safe. We hired a contractor to install a <a href='https://www.michigan.gov/deq/0,4561,7-135-3312_4120_4196-485693--,00.html'>radon mitigation system</a>. The total cost of was ~$800 and a few hours of my own time. Realistically, the cost is irrelevant due to the protection the system offers my family over the course of our lives. Looking back on the install job, I would have changed a few things and will write another blog post about that.</p>
 
-    Everyone who is willing and able can and should install a radon mitigation system.
-    </p>
+    <p>Everyone who is willing and able can and should install a radon mitigation system.</p>
 
     <h2>Furnace</h2>
     <p>Our furnace is a Janitrol and from what I've learned, it's a gigantic pile of garbage. According to <a href='https://www.furnacecompare.com/manufacturers/janitrol.html'>FurnaceCompare.com</a>, "The Janitrol brand was acquired by Goodman Manufacturing Co., which is owned by Daikin Industries Ltd. Goodman used to market "budget friendly" residential and commercial central air conditioners, furnaces and heat pumps under the Janitrol brand, but has since discontinued use of the Janitrol brand name and has consolidated the Janitrol line under the Goodman brand name instead." I've been told by HVAC professionals that Goodman is also synonymous with garbage.</p>
