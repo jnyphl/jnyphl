@@ -12,7 +12,7 @@
 
     <div class="flex w-full">
         <div class="w-2/3">
-            <p>We'll have something here soon.</p>
+            <p>We'll have something here soon. Or not! It's our lives!</p>
             <p><a href="https://philporada.com">https://philporada.com</a>
             <br /><a href="https://jennyingles.com">https://jennyingles.com</a></p>
         </div>
