@@ -51,6 +51,7 @@ categories: [house,barn,music,raspberry pi]
                     <li>A takeout container<li>
                 </ul>
                 </li>
+            </li>
         <ul>
     </p>
 
