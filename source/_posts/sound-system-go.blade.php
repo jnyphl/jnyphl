@@ -32,7 +32,27 @@ categories: [house,barn,music,raspberry pi]
     </p>
 
     <h2>Raspberry Pi's</h2>
-    <p>I bought two <a href='https://www.raspberrypi.org/products/'>Raspberry Pi 3 Model B+</a>'s and loaded a Debian based distro called <a href='https://volumio.org/'>Volumio</a> onto their SD cards.</p>
+    <p>I bought two <a href='https://www.raspberrypi.org/products/'>Raspberry Pi 3 Model B+</a>'s and loaded a Debian based distro called <a href='https://volumio.org/'>Volumio</a> onto their SD cards. Something COOL and TOTALLY EXPECTED that happend when I plugged the power into the HifiBerry AMP2 was the legit fireball that shot out of the speaker wire input slots.
+        <ul>
+            <li>House Pi</li>
+                <li style="list-style-type: none">
+                <ul>
+                    <li>RPi3B+</li>
+                    <li><a href='http://iqaudio.co.uk/hats/8-pi-dac.html'>IQaudIO New Pi-DAC+</a></li>
+                    <li>A nice acryllic enclosure</li>
+                </ul>
+                </li>
+            <li>Barn Pi</li>
+                <li style="list-style-type: none">
+                <ul>
+                    <li>RPi3B+</li>
+                    <li><a href='https://www.hifiberry.com/shop/boards/hifiberry-amp2/'>HiFiBerry AMP2</a></li>
+                    <li><a href='https://www.jameco.com/z/GST60A18-P1J-MEAN-WELL-18-Volt-3-33-Amp-60-Watt-Regulated-Switching-Table-Top-Power-Supply_2224403.html'>18V 3.33A 60W Switching Table Top Power Supply</a></li>
+                    <li>A takeout container<li>
+                </ul>
+                </li>
+        <ul>
+    </p>
 
     <h2>Music</h2>
     <p>The first song that we blasted outta this baby was Operation Ivy - Sound System, as you do.
