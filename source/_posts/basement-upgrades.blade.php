@@ -13,7 +13,7 @@ categories: [house,basement,inside,plumbing]
 @section ('content')
 
     <h2>Sump pumps</h2>
-    <p>Zoeller is a good name in the sump pump world and the <a href='https://www.zoeller.com/en-na/about/history'>Zoeller Pump Company</a> is headquartered and manufactured in Louisville, KY. Our first March was filled with rain, rain, and more rain. Living right next to a small river, I did not want to take any chances with the basement flooding. We had to bail out the basement with buckets during a power outage. Thankfully my parents are <a href='/assets/images/2018-03-01-basement-upgrades/the-best.gif'>the best</a> and came to the rescue with a Honda gas generator.</p>
+    <p>Zoeller is a good name in the sump pump world and the <a href='https://www.zoeller.com/en-na/about/history'>Zoeller Pump Company</a> is headquartered and manufactured in Louisville, KY. Our first March was filled with rain, rain, and more rain. Living right next to a small river, I did not want to take any chances with the basement flooding. We had to bail out the basement with buckets during a power outage. Thankfully my parents are <a href='/assets/images/2018-03-01-basement-upgrades/the-best.gif'>the best</a> and came to the rescue with a Honda gas generator. My dad and I eventually installed a backup sump pump that functions via water pressure from the water main. There's a ball valve that allows us turn access on/off as we please. I like to enable this backup system when Jenny and I leave on trips just for the peace of mind. The backup system's float ball sits higher than the main Zoeller pump so that it is only used when the primary pump fails. The backup installation PVC piping was bolted onto the existing primary pumps piping meaning that there is a single pipe system rather than two separate discharge lines. This would later turn out to be a bad idea because we hear gurgling every time the primary pump fires due to the air in-rush. It honestly sounds worse than it actually is. The solution is to do the job again and have two separate discharge lines.</p>
 
     <h2>Radon</h2>
     <p>Radon is a radioactive gas. It is colorless, odorless, tasteless, and chemically inert. For more information about radon, please view <a href='https://airthings.com/what-is-radon/'>this website</a> or <a href='https://sosradon.org/Radon%20Basics'>this website</a>. Our area of Michigan is documented and reported to have high levels of radon.
@@ -24,10 +24,10 @@ categories: [house,basement,inside,plumbing]
 
     <h2>Furnace</h2>
     <p>Our furnace is a Janitrol and from what I've learned, it's a gigantic pile of garbage. According to <a href='https://www.furnacecompare.com/manufacturers/janitrol.html'>FurnaceCompare.com</a>, "The Janitrol brand was acquired by Goodman Manufacturing Co., which is owned by Daikin Industries Ltd. Goodman used to market "budget friendly" residential and commercial central air conditioners, furnaces and heat pumps under the Janitrol brand, but has since discontinued use of the Janitrol brand name and has consolidated the Janitrol line under the Goodman brand name instead." I've been told by HVAC professionals that Goodman is also synonymous with garbage.</p>
-
+    <p>We had a licensed HVAC contractor company come and install an Aprilaire Model 700M. The M stands for manual which is totally not something that I had expected or even knew to research about. It's very frustrating, but we'll live. The purpose of the whole house humidifier is that in the winter we would get shocked at every single step. I shouldn't see electricity jump from my finger tips to the kitchen faucet, but such was life. When you go to install your own whole house humidifier, get one with a digital read-out. There will be extra work to install the outside air temperature sensor, but it will save you from feeling like an asshole every time you check the weather and realize you need to go adjust a dial on the humidistat in the basement.</p>
 
     <h2>Water Heater</h2>
-    <p>Not two weeks after we moved fully moved into the house did the hot water heater die. My dad and I purchased a replacement A.O. Smith 50 gallon water heater w/ a powered vent at Lowe's with a 10% discount coupon.</p>
+    <p>Not two weeks after we moved fully moved into the house did the hot water heater die. My dad and I purchased a replacement A.O. Smith 50 gallon water heater w/ a powered vent at Lowe's with a 10% discount coupon which came out to ~$800.</p>
 
 
     <h2>Progress Pics!</h2>
@@ -62,7 +62,7 @@ categories: [house,basement,inside,plumbing]
         </div>
         <div class="px-4 mb-8 w-1/2">
             <img src="/assets/images/2018-03-01-basement-upgrades/whole-house-humidifier.jpg">
-            <p class="my-2">We installed an <a href='https://www.aprilaire.com/whole-house-products/humidifier/model-700'>Aprilaire Model 700</a> whole house humidifier.</p>
+            <p class="my-2">We installed an <a href='https://www.aprilaire.com/whole-house-products/humidifier/model-700'>Aprilaire Model 700M</a> whole house humidifier.</p>
         </div>
     </div>
 @endsection
